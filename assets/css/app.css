@@ -1,0 +1,508 @@
+.max-width {
+	max-width: 75rem !important;
+}
+button, .box {
+	-webkit-transition: all .1s ease-in-out;
+	-moz-transition: all .1s ease-in-out;
+	-o-transition: all .1s ease-in-out;
+	-ms-transition: all .1s ease-in-out;
+}
+.slide {
+	min-height: 100vh;
+	position: relative;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+video#bgvideo {
+	position: fixed; right: 0; bottom: 0;
+	min-width: 100%; min-height: 100%;
+	width: auto; height: auto; z-index: -100;
+	background: url(https://s3.amazonaws.com/heroku-adfinitas-campaign/FaE-No%C3%ABl/bg-slide-1.jpg) no-repeat;
+	background-size: cover;
+}
+#sticky {
+	-webkit-transition: all .1s ease-in-out;
+	-moz-transition: all .1s ease-in-out;
+	-o-transition: all .1s ease-in-out;
+	-ms-transition: all .1s ease-in-out;
+	z-index: 9999;
+	position: fixed;
+	right: 5%;
+}
+
+#small-sticky {
+	z-index: 9999;
+	position: fixed;
+	top: 0;
+	left: 0;
+	display: none;
+	color: white;
+	text-align: center;
+	text-transform: uppercase;
+	font-family: 'Poppins', sans-serif;
+	font-weight: 600;
+	font-size: 18px;
+	padding-top: 10px;
+	height: 50px;
+	width: 100%;
+	background-color: #FB3349;
+}
+
+.player-small{
+	background-color: #FB3349;
+	color: white;
+	height: 150px;
+	text-align: center;
+}
+
+.player-small h6 {
+	font-family: 'Poppins', sans-serif;
+	font-weight: 700;
+	font-size: 20px;
+	text-transform: uppercase;
+	margin-top: 10px;
+	line-height: 1.1;
+}
+
+.player-small img{
+	padding-top: 30px;
+	padding-bottom: 10px;
+	width: 35px;
+}
+
+.header {
+	width: 100%;
+	padding: 5px;
+}
+.header img {
+	float: left;
+}
+.header button {
+	margin-top: 17px;
+	background-color: #FB3349;
+	padding: 20px 40px;
+	border-radius: 40px;
+	color: white;
+	text-transform: uppercase;
+	font-family: 'Poppins', sans-serif;
+	font-weight: 600;
+	font-size: 15px;
+	float: right;
+	display: inline-block;
+	-webkit-box-shadow: 0px 7px 16px rgba(50, 50, 50, 0.59);
+	-moz-box-shadow:    0px 7px 16px rgba(50, 50, 50, 0.59);
+	box-shadow:         0px 7px 16px rgba(50, 50, 50, 0.59);
+	margin-top: 45px;
+}
+.header button:hover,
+.box button:hover {
+	transform: scale(1.10);
+}
+#logo {
+	display: none;
+	position: relative;
+	left: 10px;
+	padding-top: 25px;
+	max-width: 59px;
+}
+
+.text-header {
+	padding-top: 0px;
+	text-align: center;
+}
+.text-header #hashtag {
+	display: table-cell;
+	vertical-align: middle;
+	margin-top: 75px;
+	width: 25px;
+	vertical-align: top;
+	display: none;
+}
+.text-header h1 {
+	display: table-cell;
+	vertical-align: middle;
+	font-family: 'Poppins', sans-serif;
+	font-weight: 700;
+	font-size: 32px;
+	text-transform: uppercase;
+	line-height: 1;
+	margin-bottom: 80px;
+	margin-top: 70px;
+	color: #00a1c6;
+	display: none;
+}
+.text-header h1 > span {
+	color: #FB3349;
+}
+.text-header p  {
+	display: none;
+	font-family: 'Poppins', sans-serif;
+	font-weight: 600;
+	line-height: 1.2;
+	color: #3b2451;
+}
+.player-header {
+	-webkit-transition: all .1s ease-in-out;
+	-moz-transition: all .1s ease-in-out;
+	-o-transition: all .1s ease-in-out;
+	-ms-transition: all .1s ease-in-out;
+	transform: scale(0);
+	width: 142px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 40px;
+}
+.player-header img {
+	display: none;
+}
+
+#enfants_mobile{
+	margin-bottom: 30px;
+}
+
+.text-header h6 {
+	display: none;
+	font-family: 'Poppins', sans-serif;
+	font-weight: 500;
+	font-size: 20px;
+	color: #fa485b;
+	text-transform: uppercase;
+	border-bottom: 1px solid #fa485b;
+	margin-top: 10px;
+	line-height: 1.1;
+}
+.menu-header {
+	display: none;
+	position: absolute;
+	bottom: 0px;
+	margin-top: 50px;
+	margin-left: auto;
+	margin-right: auto;
+	left: 0;
+	right: 0;
+}
+.menu-header p {
+	display: inline-block;
+	color: #3b2451;
+	text-transform: uppercase;
+	font-family: 'Poppins', sans-serif;
+	font-weight: 700;
+	font-size: 15px;
+	margin-left: 60px;
+	padding-top: 40px;
+}
+
+
+.container-enfants {
+	background-image: url(https://s3.amazonaws.com/heroku-adfinitas-campaign/FaE-No%C3%ABl/BG.jpg);
+	background-position: 55% 0%;
+	padding-top: 50px;
+	padding-bottom: 30px;
+	padding-left: 50px;
+}
+.container-enfants h2 {
+	font-family: 'Poppins', sans-serif;
+	font-weight: 600;
+	font-size: 34px;
+	line-height: 1;
+	color: #fdc300;
+	margin-bottom: 20px;
+}
+.image-enfants {
+	margin-top: 30px;
+}
+.image-enfants p {
+	font-family: 'Poppins', sans-serif;
+	font-weight: 450;
+	font-size: 13px;
+	line-height: 16px;
+	color: white;
+}
+.container-photos {
+	text-align: center;
+	min-height: 220px !important;
+}
+
+.container-photos img{
+	margin-top: 30px;
+	max-width: 111px;
+}
+
+#to_extend, #to_extend-small
+{
+	display: none;
+}
+
+#extend, #extend-small {
+	margin-top: 15px;
+	margin-bottom: 40px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	border-radius: 50%;
+	font-size: 62px;
+	height: 40px;
+	width: 40px;
+}
+
+
+.row-box {
+	text-align: center;
+	background-image: url(https://s3.amazonaws.com/heroku-adfinitas-campaign/FaE-No%C3%ABl/bg-slide-3.png);
+	background-position: 60% 10%;
+	padding-top: 40px;
+	padding-bottom: 80px;
+}
+.row-box h3 {
+	text-align: left;
+	color: #FB3349;
+	font-family: 'Poppins', sans-serif;
+	font-weight: 600;
+	font-size: 38px;
+	margin-left: 35px;
+	line-height: 1.1;
+}
+.box {
+	margin-top: 30px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	margin-right: 35px;
+	display: inline-block;
+	width: 260px;
+	height: 500px;
+	background-color: white;
+	border-radius: 10px;
+	-webkit-box-shadow: 0px 7px 16px rgba(50, 50, 50, 0.59);
+	-moz-box-shadow:    0px 7px 16px rgba(50, 50, 50, 0.59);
+	box-shadow:         0px 7px 16px rgba(50, 50, 50, 0.59);
+}
+
+.box p {
+	padding-left: 20px;
+	padding-right: 20px;
+	font-family: 'Poppins', sans-serif;
+	font-weight: 400;
+	font-size: 15px;
+	color: black;
+}
+.box p:nth-child(1) {
+	text-transform: uppercase;
+	font-weight: 600;
+	margin-bottom: 5px;
+}
+.box p:nth-child(2) {
+	text-transform: uppercase;
+	font-weight: 700;
+	font-size: 55px;
+	line-height: 1.3;
+	color: #FB3349;
+	margin-bottom: 0;
+}
+.box p:nth-child(3) {
+	font-weight: 500;
+	font-size: 12px;
+}
+.box p:nth-child(4) {
+	padding-top: 15px;
+	font-weight: 700;
+	font-size: 15px;
+	line-height: 1.3;
+	font-size: 12px;
+}
+.box button {
+	text-transform: uppercase;
+	background-color: white;
+	padding: 20px 40px;
+	border-radius: 40px;
+	color: #FB3349;
+	font-family: 'Poppins', sans-serif;
+	font-weight: 700;
+	font-size: 15px;
+	margin-top: 36px;
+	-webkit-box-shadow: 0px 7px 16px rgba(50, 50, 50, 0.59);
+	-moz-box-shadow:    0px 7px 16px rgba(50, 50, 50, 0.59);
+	box-shadow:         0px 7px 16px rgba(50, 50, 50, 0.59);
+}
+
+.row.infos {
+	padding-right: 80px;
+	padding-bottom: 80px;
+	padding-top: 80px;
+	padding-left: 35px;
+	background-image: url(https://s3.amazonaws.com/heroku-adfinitas-campaign/FaE-No%C3%ABl/bg-slide-4.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: 60% 60%;
+	padding-bottom: 200px;
+}
+.row.infos h2 {
+	color: #fdc300;
+	font-family: 'Poppins', sans-serif;
+	font-weight: 700;
+	font-size: 36px;
+	line-height: 1.1;
+}
+.row.infos p {
+	color: white;
+	font-family: 'Poppins', sans-serif;
+	font-weight: 700;
+	font-size: 16px;
+	line-height: 1.1;
+	color: white;
+	text-transform: uppercase;
+}
+.col-infos div {
+	margin-top: 5%;
+	margin-bottom: 5%;
+}
+.infos-end {
+	padding-left: 15px;
+}
+footer {
+	padding: 30px;
+	padding-left: 0;
+	margin-left: 0px;
+	background-color: #00a0c5;
+	text-align: center;
+}
+footer p {
+	font-family: 'Poppins', sans-serif;
+	font-weight: 300;
+	font-size: 16px;
+	color: white;
+}
+footer .copyright {
+	margin-top: 30px;
+	font-size: 10px;
+	font-weight: 300;
+}
+
+@media screen and (max-width: 452px) {
+	.text-header {
+		margin-top: -120px;
+	}
+	.text-header p {
+		margin-top: -60px;
+	}
+	.player-small {
+		margin-top: -80px;
+	}
+	.text-header h1 {
+
+		padding-top: 70px;
+	}
+	.text-header #hashtag
+	{
+		vertical-align: middle;
+		margin-top: 60px;
+		display: inline-block;
+	}
+}
+@media screen and (max-width: 358px) {
+	.text-header {
+		margin-top: -120px;
+	}
+	.text-header p {
+		margin-top: -60px;
+	}
+	.player-small {
+		margin-top: -80px;
+	}
+	.text-header h1 {
+		padding-top: 70px;
+		font-size: 22px;
+	}
+	.text-header #hashtag
+	{
+		vertical-align: middle;
+		margin-top: 60px;
+		display: inline-block;
+		width: 20px;
+	}
+}
+
+@media screen and (max-width: 595px) {
+	.text-header {
+		margin-top: -120px;
+	}
+	.text-header p {
+		margin-top: -60px;
+	}
+	.player-small {
+		margin-top: -80px;
+	}
+	.box {
+		margin-right: 0;
+	}
+}
+@media screen and (max-width: 640px) {
+	.text-header {
+		margin-top: -120px;
+	}
+	.text-header p {
+		margin-top: -60px;
+	}
+	.player-small {
+		margin-top: -80px;
+	}
+	.row.infos {
+		background-image: url(https://s3.amazonaws.com/heroku-adfinitas-campaign/FaE-No%C3%ABl/bg-slide-4-small.png);
+		background-repeat: no-repeat;
+		background-size: cover;
+		padding-top: 30px;
+		margin-left: -15px;
+		padding: 10px;
+		margin-bottom: -10px;
+	}
+	.row.infos h2 {
+		font-size: 25px;
+	}
+	.infos-title {
+		padding-top: 30px;
+	}
+	.infos-end {
+		padding-bottom: 70px;
+	}
+	#sticky {
+		position: relative;
+	}
+	.row-box h3 {
+	text-align: left;
+	font-size: 30px;
+	margin-left: 0;
+	}
+	.slide {
+		background-color: #efefef;
+	}
+	.container-enfants {
+		padding: 30px;
+	}
+}
+
+@media screen and (min-height: 800px) {
+	#logo {
+		left: -50px;
+	}
+	.menu-header {
+		position: absolute;
+		bottom: 75px;
+	}
+	#hashtag {
+		margin-top: 125px;
+	}
+	.text-header {
+		margin-top: 120px;
+	}
+}
+
+@media screen and (min-width: 1300px) {
+	.row.infos {
+		padding-left: 8%;
+	}
+}
+
+@media screen and (max-height: 600px) {
+	.menu-header {
+		position: relative;
+	}
+}
