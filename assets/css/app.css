@@ -98,7 +98,7 @@ video#bgvideo {
 .box button:hover {
 	transform: scale(1.10);
 }
-#logo {
+#logo, #logo_mobile {
 	display: none;
 	position: relative;
 	left: 10px;
