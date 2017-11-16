@@ -28,7 +28,7 @@ $(window).resize( function() {
 
 $(document).ready( function() {
 	setTimeout(function(){
-		$('#logo').fadeIn();
+		$('#logo, #logo_mobile').fadeIn();
 		setTimeout(function(){
 			$('.text-header h1').fadeIn().css("display","inline-block");
 			$('.text-header #hashtag').fadeIn();
