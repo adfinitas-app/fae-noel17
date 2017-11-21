@@ -160,6 +160,10 @@ video#bgvideo {
 	margin-bottom: 30px;
 }
 
+#part-don {
+    max-height: 900px;
+}
+
 .text-header h6 {
 	display: none;
 	font-family: 'Poppins', sans-serif;
