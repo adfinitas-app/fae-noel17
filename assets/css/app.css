@@ -27,6 +27,7 @@ button, .box {
 @media screen and (max-width: 64em) {
     #part_don {
         min-height: 100vh;
+        height: 100%;
     }
 }
 
