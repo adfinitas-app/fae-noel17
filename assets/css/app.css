@@ -13,6 +13,11 @@ button, .box {
 	background-repeat: no-repeat;
 	background-size: cover;
 }
+
+#part_don {
+    min-height: 700px;
+}
+
 video#bgvideo {
 	position: fixed; right: 0; bottom: 0;
 	min-width: 100%; min-height: 100%;
@@ -158,10 +163,6 @@ video#bgvideo {
 
 #enfants_mobile{
 	margin-bottom: 30px;
-}
-
-#part_don {
-    max-height: 700px;
 }
 
 .text-header h6 {
