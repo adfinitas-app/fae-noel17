@@ -23,11 +23,6 @@ button, .box {
     #part_don {
         max-height: 700px;
     }
-    @media screen and (max-height: 64em) {
-        #part_don {
-            max-height: 10000px;
-        }
-    }
 }
 
 video#bgvideo {
