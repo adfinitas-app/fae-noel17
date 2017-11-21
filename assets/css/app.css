@@ -8,7 +8,7 @@ button, .box {
 	-ms-transition: all .1s ease-in-out;
 }
 .slide {
-	min-height: 100vh;
+	height: 100vh;
 	position: relative;
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -158,6 +158,10 @@ video#bgvideo {
 
 #enfants_mobile{
 	margin-bottom: 30px;
+}
+
+#part_don {
+    max-height: 700px;
 }
 
 .text-header h6 {
