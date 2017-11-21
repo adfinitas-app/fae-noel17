@@ -25,7 +25,7 @@ button, .box {
     }
 }
 
- @media screen and (max-height: 64em)and(min-height:700px) {
+ @media screen and (max-height: 64em) and (min-height:700px) {
         #part_don {
             max-height: 10000px;
         }
