@@ -15,7 +15,14 @@ button, .box {
 }
 
 #part_don {
-    height : 700px;
+    min-height: 700px;
+    height: 100vh;
+}
+
+@media screen and (min-height: 700px) {
+    #part_don {
+        max-height: 700px;
+    }
 }
 
 video#bgvideo {
