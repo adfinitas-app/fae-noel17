@@ -8,7 +8,7 @@ button, .box {
 	-ms-transition: all .1s ease-in-out;
 }
 .slide {
-	height: 100vh;
+	min-height: 100vh;
 	position: relative;
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -22,6 +22,11 @@ button, .box {
 @media screen and (min-height: 700px) {
     #part_don {
         max-height: 700px;
+    }
+}
+@media screen and (max-width: 64em) {
+    #part_don {
+        min-height: 100vh;
     }
 }
 
