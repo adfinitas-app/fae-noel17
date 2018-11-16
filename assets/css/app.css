@@ -131,8 +131,8 @@ video#bgvideo {
 .text-header #hashtag {
 	display: table-cell;
 	vertical-align: middle;
-	margin-top: 75px;
-	width: 25px;
+	margin-top: 20px;
+	width: 41px;
 	vertical-align: top;
 	display: none;
 }
@@ -141,11 +141,11 @@ video#bgvideo {
 	vertical-align: middle;
 	font-family: 'Poppins', sans-serif;
 	font-weight: 700;
-	font-size: 32px;
+	font-size: 41px;
 	text-transform: uppercase;
 	line-height: 1;
 	margin-bottom: 80px;
-	margin-top: 70px;
+	margin-top: 20px;
 	color: #00a1c6;
 	display: none;
 }
@@ -155,7 +155,8 @@ video#bgvideo {
 .text-header p  {
 	display: none;
 	font-family: 'Poppins', sans-serif;
-	font-weight: 600;
+	font-weight: normal;
+	font-size: 18px;
 	line-height: 1.2;
 	color: #3b2451;
 }
@@ -165,10 +166,11 @@ video#bgvideo {
 	-o-transition: all .1s ease-in-out;
 	-ms-transition: all .1s ease-in-out;
 	transform: scale(0);
-	width: 142px;
+	width: 190px;
 	margin-left: auto;
 	margin-right: auto;
 	margin-top: 40px;
+    margin-bottom: 40px;
 }
 .player-header img {
 	display: none;
@@ -182,7 +184,7 @@ video#bgvideo {
 	display: none;
 	font-family: 'Poppins', sans-serif;
 	font-weight: 500;
-	font-size: 20px;
+	font-size: 27px;
 	color: #fa485b;
 	text-transform: uppercase;
 	border-bottom: 1px solid #fa485b;
@@ -193,7 +195,7 @@ video#bgvideo {
 	display: none;
 	position: absolute;
 	bottom: 0px;
-	margin-top: 50px;
+	margin-top: 30px;
 	margin-left: auto;
 	margin-right: auto;
 	left: 0;
@@ -206,8 +208,11 @@ video#bgvideo {
 	font-family: 'Poppins', sans-serif;
 	font-weight: 700;
 	font-size: 15px;
-	margin-left: 60px;
+	margin: 0 auto;
 	padding-top: 40px;
+    width:100%;
+    text-align: center;
+    margin-bottom: 20px;
 }
 
 
@@ -231,9 +236,9 @@ video#bgvideo {
 }
 .image-enfants p {
 	font-family: 'Poppins', sans-serif;
-	font-weight: 450;
-	font-size: 13px;
-	line-height: 16px;
+	font-weight: 100;
+	font-size: 18px;
+	line-height: 21px;
 	color: white;
 }
 .container-photos {
@@ -401,19 +406,21 @@ footer .copyright {
 	}
 	.text-header p {
 		margin-top: -60px;
+        font-size: 15px;
 	}
 	.player-small {
 		margin-top: -80px;
 	}
 	.text-header h1 {
-
+        font-size: 22px;
 		padding-top: 70px;
 	}
 	.text-header #hashtag
 	{
 		vertical-align: middle;
-		margin-top: 60px;
+		margin-top: 30px;
 		display: inline-block;
+        width: 22px;
 	}
 }
 @media screen and (max-width: 358px) {
@@ -455,7 +462,7 @@ footer .copyright {
 }
 @media screen and (max-width: 640px) {
 	.text-header {
-		margin-top: -120px;
+		margin-top: 0px;
 	}
 	.text-header p {
 		margin-top: -60px;
@@ -523,4 +530,13 @@ footer .copyright {
 	.menu-header {
 		position: relative;
 	}
+}
+
+.box:hover {
+    background-color: #FB3349;
+}
+
+.box:hover p:nth-child(2),
+.box:hover p:nth-child(4) {
+    color : white;
 }
