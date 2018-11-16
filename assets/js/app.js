@@ -22,10 +22,6 @@ $(window).scroll(function() {
 	}
 });
 
-$(window).resize( function() {
-	console.log($(window).height());
-});
-
 $(document).ready( function() {
 	setTimeout(function(){
 		$('#logo, #logo_mobile').fadeIn();
@@ -45,20 +41,6 @@ $(document).ready( function() {
 		}, 1000);
 	}, 500);
 
-
-
-
-	$('.box').hover( 
-		function() {
-			$(this).css('background-color', '#FB3349');
-			$(this).find('p:nth-child(2)').css('color', 'white');
-			$(this).find('p:nth-child(4)').css('color', 'white');
-		},
-		function() {
-			$(this).css('background-color', 'white');
-			$(this).find('p:nth-child(2)').css('color', '#e94b48');
-			$(this).find('p:nth-child(4)').css('color', 'black');
-		});
 
 
 
@@ -105,29 +87,29 @@ setInterval(function(){
 }, 1000)
 
 $('#logo').click( function() {
-	woopra.track('interaction', {category:"LOGO_FA17",action:"clic",url:document.location.href,title: document.title});
+	woopra.track('interaction', {category:"LOGO_FA18",action:"clic",url:document.location.href,title: document.title});
 })
 
 $('#sticky').click( function() {
-	woopra.track('interaction', {category:"DON-CTA_FA17",action:"clic",url:document.location.href,title: document.title});
+	woopra.track('interaction', {category:"DON-CTA_FA18",action:"clic",url:document.location.href,title: document.title});
 })
 
 $('.player-header').click( function() {
-	woopra.track('interaction', {category:"VIDEO-CTA_FA17",action:"clic",url:document.location.href,title: document.title});
+	woopra.track('interaction', {category:"VIDEO-CTA_FA18",action:"clic",url:document.location.href,title: document.title});
 })
 
 $('.player-small').click( function() {
-	woopra.track('interaction', {category:"VIDEO-CTA_FA17",action:"clic",url:document.location.href,title: document.title});
+	woopra.track('interaction', {category:"VIDEO-CTA_FA18",action:"clic",url:document.location.href,title: document.title});
 })
 
 $('#don_70').click( function() {
-	woopra.track('interaction', {category:"DON-CTA-70_FA17",action:"clic",url:document.location.href,title: document.title});
+	woopra.track('interaction', {category:"DON-CTA-70_FA18",action:"clic",url:document.location.href,title: document.title});
 })
 
 $('#don_100').click( function() {
-	woopra.track('interaction', {category:"DON-CTA-100_FA17",action:"clic",url:document.location.href,title: document.title});
+	woopra.track('interaction', {category:"DON-CTA-100_FA18",action:"clic",url:document.location.href,title: document.title});
 })
 
 $('#don_200').click( function() {
-	woopra.track('interaction', {category:"DON-CTA-200_FA17",action:"clic",url:document.location.href,title: document.title});
+	woopra.track('interaction', {category:"DON-CTA-200_FA18",action:"clic",url:document.location.href,title: document.title});
 })
