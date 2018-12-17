@@ -374,6 +374,10 @@ video#bgvideo {
 	color: white;
 	text-transform: uppercase;
 }
+.row.infos sup {
+	text-transform: lowercase;
+}
+
 .col-infos div {
 	margin-top: 5%;
 	margin-bottom: 5%;
