@@ -193,7 +193,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
             </div>
             <div class="columns end small-10 medium-10 large-10 small-offset-1 medium-offset-1 large-offset-1 end">
                 <div class="adFclone">
-                    <a class="adFwrapper" href="{{LINK}}&reserved_code_media=2019WN" target="_blank" data-amount="{{AMOUNT}}">
+                    <a class="adFwrapper" href="{{LINK}}&reserved_code_media=2019WN&cid=66" target="_blank" data-amount="{{AMOUNT}}">
                         <div class="box">
                             <p>Je donne</p>
                             <p>{{AMOUNT}}€</p>
@@ -395,7 +395,6 @@ La Fondation Action Enfance, créée en 1996, en association régie par la loi d
     var query = url('?');
 
     if ('wv_email' in query) {
-        console.log("email");
         str += '&' + 'email=' + query['wv_email'];
     }
     if ('wv_firstname' in query) {
