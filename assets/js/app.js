@@ -87,29 +87,29 @@ setInterval(function(){
 }, 1000)
 
 $('#logo').click( function() {
-	woopra.track('interaction', {category:"LOGO_FA18",action:"clic",url:document.location.href,title: document.title});
+	woopra.track('interaction', {category:"LOGO_FA19",action:"clic",url:document.location.href,title: document.title});
 })
 
 $('#sticky').click( function() {
-	woopra.track('interaction', {category:"DON-CTA_FA18",action:"clic",url:document.location.href,title: document.title});
+	woopra.track('interaction', {category:"DON-CTA_FA19",action:"clic",url:document.location.href,title: document.title});
 })
 
 $('.player-header').click( function() {
-	woopra.track('interaction', {category:"VIDEO-CTA_FA18",action:"clic",url:document.location.href,title: document.title});
+	woopra.track('interaction', {category:"VIDEO-CTA_FA19",action:"clic",url:document.location.href,title: document.title});
 })
 
 $('.player-small').click( function() {
-	woopra.track('interaction', {category:"VIDEO-CTA_FA18",action:"clic",url:document.location.href,title: document.title});
+	woopra.track('interaction', {category:"VIDEO-CTA_FA19",action:"clic",url:document.location.href,title: document.title});
 })
 
 $('#don_70').click( function() {
-	woopra.track('interaction', {category:"DON-CTA-70_FA18",action:"clic",url:document.location.href,title: document.title});
+	woopra.track('interaction', {category:"DON-CTA-70_FA19",action:"clic",url:document.location.href,title: document.title});
 })
 
 $('#don_100').click( function() {
-	woopra.track('interaction', {category:"DON-CTA-100_FA18",action:"clic",url:document.location.href,title: document.title});
+	woopra.track('interaction', {category:"DON-CTA-100_FA19",action:"clic",url:document.location.href,title: document.title});
 })
 
 $('#don_200').click( function() {
-	woopra.track('interaction', {category:"DON-CTA-200_FA18",action:"clic",url:document.location.href,title: document.title});
+	woopra.track('interaction', {category:"DON-CTA-200_FA19",action:"clic",url:document.location.href,title: document.title});
 })
