@@ -392,7 +392,7 @@ La Fondation Action Enfance, créée en 1996, en association régie par la loi d
 <script src="https://cdnjs.cloudflare.com/ajax/libs/foundation/6.2.3/foundation.min.js"></script>
 <script>
     var str = "";
-    var query = url('?');
+    var query = extractUrlParams();
 
     if ('wv_email' in query) {
         str += '&email=' + query['wv_email'];
