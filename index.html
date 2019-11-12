@@ -395,18 +395,18 @@ La Fondation Action Enfance, créée en 1996, en association régie par la loi d
     var query = url('?');
 
     if ('wv_email' in query) {
-        str += '&' + 'email=' + query['wv_email'];
+        str += '&email=' + query['wv_email'];
     }
     if ('wv_firstname' in query) {
-        str += '&' + 'firstname=' + query['wv_firstname'];
+        str += '&firstname=' + query['wv_firstname'];
     }
     if ('wv_lastname' in query) {
-        str += '&' + 'lastname=' + query['wv_lastname'];
+        str += '&lastname=' + query['wv_lastname'];
     }
     if ('reserved_code_media' in query) {
-        str += '&' + 'reserved_code_media=' + query['reserved_code_media'];
+        str += '&reserved_code_media=' + query['reserved_code_media'];
     } else {
-        str += '&' + 'reserved_code_media=2019WN'
+        str += '&reserved_code_media=2019WN';
     }
     str.replace("wv_", "");
     var links = document.getElementsByClassName("uconc");
